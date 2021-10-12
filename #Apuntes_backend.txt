@@ -3,3 +3,6 @@ Levantar servidor de la app (ionic serve)
 Levantar MySql y Apache (xampp)
 
 Levantar strapi (npm run develop)
+
+___________
+Testeo de git v2
