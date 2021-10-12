@@ -1,0 +1,29 @@
+Paginas
+__Globales
+home                OK
+recuperar-clave     OK
+__Docente
+homed               OK
+secciones           OK
+opciones            OK
+codigo-qr              - Generacion de codigo
+alumnos             OK
+__Alumno
+ionic g page pages/alumno/
+Observaciones :
+1.A las paginas les falta poder traer el nombre del inicio
+2.Agregar botones de navegación (componente dinamico)
+3.Agregar un desplazamiento para poder visualizar a todos los alumnos
+_____________________________
+Grid responsive
+Xs muy chico
+Sm chico
+Md mediano
+Lg grande
+Xl muy grande
+_____________________________
+Colores de utilidad
+Amarillo :          FFB800
+Amarillo disabled : AF8000
+Azul :              002D56
+_____________________________

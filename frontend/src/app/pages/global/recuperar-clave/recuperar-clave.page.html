@@ -1,0 +1,28 @@
+<!--Header-->
+<app-cabecera [Boton]=Boton></app-cabecera>
+<br />
+<ion-content>
+  <!--Card-->
+  <ion-card style="border-radius: 5px">
+    <!--Card Header-->
+    <ion-card-header class="ion-text-center"style="color:#ffb800;">Recuperación</ion-card-header>
+    <!--Card Content-->
+    <ion-card-content>
+      <ion-item>
+        <ion-label position="floating" style="font-family: Merriweather; color:#ffb800;">Password</ion-label>
+        <ion-input type="password" style="font-family: Merriweather; color: #ffb800;"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="floating" style="font-family: Merriweather; color: #ffb800;">Repeat Password</ion-label>
+        <ion-input type="password" style="font-family: Merriweather; color: #ffb800;"></ion-input>
+      </ion-item>
+      <br />
+      <!--Volver al menu-->
+      <ion-buttons class="ion-float-center">
+        <ion-button style="background-color: #ffb800;color: white; border-radius: 5px" [routerLink]="['/']"><ion-icon name="save"slot="end"color="white">Confirmar</ion-icon>Confirmar</ion-button>
+       </ion-buttons>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
+<!--Footer-->
+<app-pie-de-pagina></app-pie-de-pagina>

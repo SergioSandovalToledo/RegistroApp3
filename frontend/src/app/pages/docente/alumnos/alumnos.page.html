@@ -1,0 +1,29 @@
+<!--Header-->
+<app-cabecera></app-cabecera>
+<!--Body-->
+<!--Lista de alumnos-->
+<ion-grid>
+  <ion-row>
+    <!--Alumno-->
+    <ion-col size-xs="12"size-sm="12"size-md="12" *ngFor="let aux of alumnos">
+        <ion-card>
+          <!--Card Header-->
+  <ion-card-header>
+    <h4 class="ion-text-center">{{aux.pnombre}}</h4>
+    <!--
+                                          Imagen pero más pequeña
+                                          aux.imagen.formats.thumbnail.url
+    -->
+    <img [src]=" aux.imagen ? 'http://localhost:1337'+aux.imagen.url : 'http://localhost:1337/uploads/no_image_85a8dbff44.png?18943.199999999255' " alt="">
+  </ion-card-header>
+  <!--Card Content-->
+  <ion-card-content>
+    <h6>Apellido paterno: {{aux.appaterno}}</h6>
+    <h6>Apellido materno: {{aux.apmaterno}}</h6>
+  </ion-card-content>
+        </ion-card>
+      </ion-col>
+  </ion-row>
+</ion-grid>
+<!--Footer-->
+<app-pie-de-pagina></app-pie-de-pagina>

@@ -1,0 +1,44 @@
+<!--Header-->
+<app-cabecera></app-cabecera>
+<!--Body-->
+<ion-card>
+  <!--Header-->
+  <ion-card-header>
+    <img
+      src="../../../../assets/Imagenes/DuocUC.png"
+      style="display: block;margin: 0 auto 0 auto;max-width: 40%;height: auto;"alt="#"/>
+  </ion-card-header>
+  <!--Contenido-->
+  <ion-card-content>
+    <ion-grid>
+      <ion-row>
+        <!--Opciones-->
+        <ion-col size-xs="12" size-sm="12" size-md="12" [routerLink]="['/codigo-qr']">
+          <ion-card>
+            <ion-item>
+                <ion-icon name="qr-code-outline"slot="start"></ion-icon>
+              <h6>Pasar asistencia con código QR</h6>
+            </ion-item>
+          </ion-card>
+        </ion-col>
+        <!--Proximamente-->
+        <ion-col
+          size-xs="12"
+          size-sm="12"
+          size-md="12"
+          [routerLink]="['/opciones']"
+        >
+          <ion-card>
+            <ion-item>
+                <ion-icon name="list-outline"slot="start"style="color:#af8000;"></ion-icon>
+              <h6 style="color:#af8000;">Pasar asistencia de forma manual</h6>
+            </ion-item>
+          </ion-card> </ion-col
+        >
+      </ion-row>
+    </ion-grid>
+  </ion-card-content>
+</ion-card>
+<br /><br /><br /><br />
+<!--Footer-->
+<app-pie-de-pagina></app-pie-de-pagina>
