@@ -5,4 +5,4 @@ Levantar MySql y Apache (xampp)
 Levantar strapi (npm run develop)
 
 ___________
-Testeo de git v2
+Testeo de git v2.2
