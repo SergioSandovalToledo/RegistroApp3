@@ -27,4 +27,4 @@ Amarillo :          FFB800
 Amarillo disabled : AF8000
 Azul :              002D56
 _____________________________
-Testeo de git v2.3
+Testeo de git v2.4
